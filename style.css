@@ -1,0 +1,129 @@
+.divTable{
+	display: table;
+	width: 100%;
+}
+.divTableBody {
+	display: table-row-group;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableCell {
+	display: table-cell;
+	position: relative;	
+	text-align: center;
+	vertical-align: middle;
+	width: 33%;
+	max-width: 50%;
+}
+.divTableCellExtra1 {
+	display: table-cell;
+	position: static;
+	text-align: left;
+	vertical-align: top;
+	width: 2%;
+	max-width: 2%;
+	font-weight: bold;
+}
+.divTableCellExtra2 {
+	display: table-cell;
+	position: static;
+	text-align: left;
+	vertical-align: top;
+	width: 90%;
+	max-width: 6%;
+}
+.divTableCellExtra3 {
+	display: table-cell;
+	position: static;
+	text-align: left;
+	vertical-align: top;
+	width: 4%;
+	max-width: 4%;
+}
+.divTableCellExtra4 {
+	display: table-cell;
+	position: static;
+	text-align: left;
+	vertical-align: top;
+	width: 2%;
+	max-width: 2%;
+}
+h1{
+	font-family: Verdana, sans-serif;
+	font-size: larger;
+	font-weight: bold;
+	line-height: 2;
+}
+h2{
+	font-family: Verdana, sans-serif;
+	font-size: large;
+	font-weight: normal;
+	line-height: 2;
+}
+body {
+    -moz-transform: scale(1, 1); /* Moz-browsers */
+    zoom: 1; /* Other non-webkit browsers */
+    zoom: 100%; /* Webkit browsers */
+    font-family: Verdana, sans-serif;
+}
+.center {
+  margin: 4% 8% 4% 8%;
+  width: 84%;
+  border: 3px none green;
+  padding: 0% 0% 0% 0%;
+  align-self: center;
+}
+.seccion{
+	margin-top: 5%;
+}
+.formacion{
+	margin-top: 4%;
+	list-style-type: none;
+	font-weight: bold;
+}
+.desc_formacion{
+	margin-top: 4%;
+	list-style-type: none;
+	font-weight: normal;
+}
+.subformacion{
+	list-style-type: none;
+	line-height: 200%;
+}
+.eacademica {
+	list-style:none;
+	list-style-position:inside;
+	line-height: 200%;
+}
+.experiencia {
+	margin-top: 3%;
+	line-height: 200%;
+	list-style-type: none;
+}
+.tareas{
+	list-style-type: square;
+	list-style-position: inside;
+}
+img{
+max-width: 50%;
+}
+.cinformaticos {
+	margin-bottom: 3%;
+	font-weight: bold;
+	list-style: none;
+}
+.elemento_cinformaticos {
+	margin-left: 3%;
+	list-style: none;
+	font-weight: normal;
+	line-height: 200%;
+}
+.idiomas{
+	line-height: 200%;
+	list-style: none;
+}
+.otros_datos{
+	line-height: 200%;
+	list-style: none;
+}
